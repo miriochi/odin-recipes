@@ -11,3 +11,143 @@
     display: block;
 
 }
+
+
+body{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* nav bar  start menu*/ 
+
+.homenav{
+
+ display: inline-block;
+ width: 80%;
+ padding: auto;
+}
+
+.homenav ul{
+    list-style-type: none;
+    margin: auto;
+    background-color: #000000;
+    width: auto;
+}
+
+
+ .homenav li {
+     font-size: 80px;
+     padding-top: 50px;
+    
+  }
+  
+  
+  .homenav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .homenav li a:hover:not(.active) {
+    background-color: #383333;
+  }
+
+ /* home icon*/
+ .homeimg{
+  display: block;
+}
+
+  .home-button img {
+    width: 100px;
+    border-radius: 300px ;
+    border:  20px solid black;
+    float: left;
+
+  }
+
+
+  .home-button img:hover {
+    background-color: rgba(20, 103, 172, 0.247);
+    border-radius: 300px ;
+    border:  20px solid rgb(20, 19, 19);
+    
+  }
+
+  /*soma */ 
+
+ 
+  .homeimg #soma{
+    width: 250px;
+    margin: 0px 150px  0px 0px;
+    
+  }
+
+  /* nav bar  recipe menu*/ 
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  .nav li {
+    float: right;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  /* back to index button*/ 
+  .index img{
+    display: block;
+  }
+  
+    .index img {
+      width: 40px;
+      border-radius: 30px ;
+      border:  2px solid black;
+      float: left;
+  
+    }
+  
+  
+    .index img:hover {
+      background-color: rgba(20, 103, 172, 0.247);
+      border-radius: 30px ;
+      border:  2px solid rgb(20, 19, 19);
+      
+    }
+  
+
+
+/* list styling for recipes */
+
+  li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  /*table style*/ 
+  table tr{
+    font-size: 20px;
+  }
+   
+
+
+
+ 
